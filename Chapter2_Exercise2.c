@@ -1,4 +1,4 @@
-/* EXERCISE 2 - Chapter 2 */
+/* EXERCISE 2 - Chapter 2 - solved and finished 25/7/2026 at roughly 6:00 PM BRT */
 
 #include <stdio.h>
 #define PI_2DP 3.14f /* Value of pi to two decimal places. */
