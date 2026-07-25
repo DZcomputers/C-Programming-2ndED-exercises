@@ -1,4 +1,4 @@
-AUTHOR'S NOTES:
+EXERCISE 2 - AUTHOR'S NOTES (25/07/2026).
 
   	When entering the fraction as 4.0f / 3.0f, the result - fixed to 1 decimal - is 4186.7. But when it's written as just 4 / 3, it's just 3140.0.
 	I did the math and the result with the floating fraction is the actual one.
@@ -8,9 +8,14 @@ AUTHOR'S NOTES:
 	A * 3.14 * 1000 = 3140.0
 	A * 3140 = 3140.0
 	A = 1
-	1 != 4/3
+	4/3 != 1, it's 1.[3] <- the square brackets means the number repeats endlessly.
 
-	C is known for being picky about its data types, but I didn't know it was picky to the point where operations that had integers in them
-	HAD to result in an integer - same thing for floats.
+	C is known for being picky about its data types, but I didn't know it was picky to the point where operations that had integers in them HAD to result in an integer - same thing for floats.
+
+	Also, the final file turned out to be - according to GitHub - 430 bytes. For a program that's just supposed to calculate the volume of a sphere, that is NOT a good thing.
+	I think it's because of the fact that I had to multiply "daRadius" three times - an operation that, unlike addition, takes a lot of processing power.
+	Maybe next time I should write a function that acts as an exponentiation operator with a For loop in it. Though, I have to find out if multiplication incrementation is possible in C.
+
+	Peace out!
 
 END OF AUTHOR'S NOTES.
