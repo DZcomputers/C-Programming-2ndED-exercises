@@ -1,6 +1,6 @@
 AUTHOR'S NOTES:
 
-  When entering the fraction as 4.0f / 3.0f, the result - fixed to 1 decimal - is 4186.7. But when it's written as just 4 / 3, it's just 3140.0.
+  	When entering the fraction as 4.0f / 3.0f, the result - fixed to 1 decimal - is 4186.7. But when it's written as just 4 / 3, it's just 3140.0.
 	I did the math and the result with the floating fraction is the actual one.
 
 	Let A be some rational number:
@@ -12,3 +12,5 @@ AUTHOR'S NOTES:
 
 	C is known for being picky about its data types, but I didn't know it was picky to the point where operations that had integers in them
 	HAD to result in an integer - same thing for floats.
+
+END OF AUTHOR'S NOTES.
