@@ -13,7 +13,7 @@ EXERCISE 2 - AUTHOR'S NOTES (25/07/2026).
 	C is known for being picky about its data types, but I didn't know it was picky to the point where operations that had integers in them HAD to result in an integer - same thing for floats.
 
 	Also, the final file turned out to be - according to GitHub - 430 bytes. For a program that's just supposed to calculate the volume of a sphere, that is NOT a good thing.
-	I think it's because of the fact that I had to multiply "daRadius" three times - an operation that, unlike addition, takes a lot of processing power.
+	I think it's because of the fact that I had to multiply "radius" three times - an operation that, unlike addition, takes a lot of processing power.
 	Maybe next time I should write a function that acts as an exponentiation operator with a For loop in it. Though, I have to find out if multiplication incrementation is possible in C.
 
 	Peace out!
