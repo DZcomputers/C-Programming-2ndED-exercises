@@ -5,12 +5,12 @@
 
 int main (void) {
 	float sphereVolume;
-	int daRadius;
+	int radius;
 
 	daRadius = 10;
-	sphereVolume = (4 / 3) * PI_2DP * daRadius * daRadius * daRadius;
+	sphereVolume = (4 / 3) * PI_2DP * radius * radius * radius;
 
-	printf("The volume of a sphere with a radius of %d meters is roughly %.1f cubic meters.\n", daRadius, sphereVolume);
+	printf("The volume of a sphere with a radius of %d meters is roughly %.1f cubic meters.\n", radius, sphereVolume);
 
 	return 0;
 }
